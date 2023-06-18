@@ -45,13 +45,13 @@ Merci à mailto:saadialbane@gmail.com:[Saadia Albane] pour l'idée du problème 
 
 === De la solution...
 
-* LAST NAME : DOE
-* First name : John
+* LAST NAME : AL MASRI
+* First name : Marwan
 * TD group : 
 - [ ] 1
-- [x] 2
+- [ ] 2
 - [ ] 3
-- [ ] 4
+- [x] 4
 
 // == Objectives
 == Objectifs
@@ -194,20 +194,46 @@ WARNING: Les répertoires et fichiers existants devront être complétés et mis
 
 Voici les pré-requis pour exécuter nos codes d'évaluation.
 
-- Java v.x.y.z
-- ...
+- Pour reproduire nos analyses, pour Codacy :
+. Rendez-vous sur le site de Codacy
+. Selectionner le repository github contenant les fichiers à tester
+. Vous obtiendrez ensuite les résultats pour chaque fichier de test
+
+- Pour JoularJx :
+. Suivez le guide d'installation sur le github du projet JoularJx
+. Une fois installé, entrer la commande suivante pour tester une classe : java -javaagent:joularjx-$version.jar YourProgramMainClass
+. pour tester un Jar : java -javaagent:joularjx-$version.jar -jar yourProgram.jar
+. Vous obtiendrez ensuite les résultats pour chaque test
+
+- Pour JArchitect
+. Créer un compte et télécharger le logiciel
+. Ouvrez le logiciel et importer votre projet
+. Une fois le projet créé, jArchitect analysera automatiquement votre code contenu dans le projet et affichera les résultats dans l'interface utilisateur.
 
 === Reproductibilité
 
-- Pour reproduire nos analyses :
-. Installez X
-. Lancez Y
-. ...
+- Pour reproduire nos analyses, pour Codacy :
+- Rendez-vous sur le site de Codacy
+- Selectionner le repository github contenant les fichiers à tester
+- Vous obtiendrez ensuite les résultats pour chaque fichier de test
+
+- Pour JoularJx :
+- Suivez le guide d'installation sur le github du projet JoularJx
+- Une fois installé, entrer la commande suivante pour tester une classe : java -javaagent:joularjx-$version.jar YourProgramMainClass
+- pour tester un Jar : java -javaagent:joularjx-$version.jar -jar yourProgram.jar
+- Vous obtiendrez ensuite les résultats pour chaque test
+
+- Pour JArchitect
+- Créer un compte et télécharger le logiciel
+- Ouvrez le logiciel et importer votre projet
+- Une fois le projet créé, jArchitect analysera automatiquement votre code contenu dans le projet et affichera les résultats dans l'interface utilisateur.
 
 === Références
 
-- link:http://xyz[Mon super outil XYZ]
-- ...
+- link:https://github.com/joular/joularjx[JoularJx (Permet de tester l'efficacité énergetique)]
+- link:https://www.codacy.com/[Codacy (Permet de tester la qualité et la lisibilité)] 
+- link:https://www.jarchitect.com/[JArchitect (Permet de tester la qualité et la lisibilité)]
+
 
 == Généralités, notation de la SAÉ et résultat du concours
 
